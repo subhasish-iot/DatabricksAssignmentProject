@@ -15,7 +15,7 @@ object DatabricksAssignmentDriver {
     //Require to running on Windows Machine
     //System.setProperty("hadoop.home.dir", "C://winutils")
     val spark = SparkSession.builder().master("yarn").getOrCreate()
-    //val configBasePath = "file:///G://Personalize//data//aruba_assignment"
+    //val configBasePath = "file:///G://Personalize//data//databricks_assignment"
     //val yearOfProcessing = 2018
     val configBasePath = String.valueOf(args(0).trim())
     val yearOfProcessing = String.valueOf(args(1).trim()).toInt
