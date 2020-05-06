@@ -18,6 +18,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/SUBHASISH/.m2/repository/org/scalatest/scalatest_sjs0.6_2.11/3.0.5/scalatest_sjs0.6_2.11-3.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SUBHASISH/.m2/repository/org/scalatest/scalatest_sjs0.6_2.11/3.0.6/scalatest_sjs0.6_2.11-3.0.6.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
