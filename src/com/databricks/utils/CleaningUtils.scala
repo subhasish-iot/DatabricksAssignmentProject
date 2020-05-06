@@ -1,6 +1,6 @@
-package com.aruba.utils
+package com.databricks.utils
 
-import com.aruba.arch.CleaningTraits
+import com.databricks.arch.CleaningTraits
 import org.apache.spark.sql.DataFrame
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._

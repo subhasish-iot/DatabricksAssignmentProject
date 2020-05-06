@@ -1,4 +1,4 @@
-package com.aruba.tesutils
+package com.databricks.tesutils
 
 import java.nio.file.{Files, Path}
 import org.apache.commons.io.FileUtils

@@ -1,6 +1,6 @@
-package com.aruba.testobjects
+package com.databricks.testobjects
 
-import com.aruba.tesutils.BaseSpec
+import com.databricks.tesutils.BaseSpec
 import org.apache.spark.sql.DataFrame
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._

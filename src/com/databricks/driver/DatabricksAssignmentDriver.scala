@@ -1,14 +1,14 @@
-package com.aruba.driver
+package com.databricks.driver
 
 import org.apache.spark.sql.SparkSession
-import com.aruba.utils.CleaningUtils
+import com.databricks.utils.CleaningUtils
 import org.apache.hadoop.fs.{ FileSystem, Path }
-import com.aruba.utils.CommonUtility
+import com.databricks.utils.CommonUtility
 import org.apache.spark.sql.SaveMode
-import com.aruba.utils.DataTransformUtility
+import com.databricks.utils.DataTransformUtility
 import org.apache.log4j.Logger
 
-object ArubaAssignmentDriver {
+object DatabricksAssignmentDriver {
 
   val log = Logger.getLogger(getClass.getName)
   def main(args: Array[String]): Unit = {
